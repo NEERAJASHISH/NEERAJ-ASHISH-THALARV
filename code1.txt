@@ -1,0 +1,7 @@
+x = int(input("enter the number x:"))
+y = int(input("enter the number y:"))
+res = 1
+for i in range(y):
+    res = res*x
+    
+print(res)  
