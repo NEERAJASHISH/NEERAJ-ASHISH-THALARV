@@ -1,0 +1,8 @@
+import random 
+import string
+id = " "
+charecter_list = string.ascii_letters + string.digits
+
+for i in range(6):
+    id += random.choice(charecter_list)
+print(id) 
